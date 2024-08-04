@@ -1,5 +1,7 @@
 Cafe API
 API untuk sistem pemesanan di Cafe. Proyek ini menggunakan Node.js dan Express untuk backend, serta MySQL sebagai database.
+![swagger2](https://github.com/user-attachments/assets/72986406-e91d-43ba-9c3f-1989b36f4f21)
+![swagger1](https://github.com/user-attachments/assets/022fd1e7-d54e-47f2-a424-e35fc87f4aab)
 
 Persyaratan
 Node.js
@@ -82,22 +84,10 @@ Endpoint ini digunakan untuk mendapatkan tagihan untuk meja tertentu.
 
 URL: http://localhost:3000/bill/MEJA NO 1
 Metode: GET
-Struktur Direktori
-css
-Copy code
-cafe-api/
-│
-├── app.js
-├── routes/
-│   ├── order.js
-│   └── bill.js
-├── controllers/
-│   ├── orderController.js
-│   └── billController.js
-├── models/
-│   └── db.js
-├── swagger/
-│   └── swagger.json
+
+
+
+http://localhost:3000/api-docs/#/default/get_bill__tableNumber_
 └── data.sql
 Lisensi
 Proyek ini dilisensikan di bawah MIT License. Lihat file LICENSE untuk detail lebih lanjut.
